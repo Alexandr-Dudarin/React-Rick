@@ -11,3 +11,33 @@ body {
   background-color: #d2bee3;
   color: #3a7c57;
 }
+
+.location-container {
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #d2bee3;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.location-title {
+  display: flex;
+  align-items: center;
+}
+
+.location-title h3 {
+  margin: 0;
+}
+
+.location-container:hover {
+  background-color: #b2a1d1;
+}
+
+.location-details {
+  margin-top: 8px;
+  padding: 10px;
+  background-color: #c0c7d4;
+  border-radius: 8px;
+  font-size: 14px;
+}
