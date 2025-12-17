@@ -1,4 +1,3 @@
-// LocationContainer.jsx
 import React, { useEffect, useState } from 'react';
 import { fetchLocations } from '../Api';
 import LocationList from './LocationList';

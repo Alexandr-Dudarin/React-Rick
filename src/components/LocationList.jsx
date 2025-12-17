@@ -1,5 +1,3 @@
-// LocationList.jsx
-import React from 'react';
 import LocationItem from './LocationItem';
 
 const LocationList = ({ locations, expandedId, onToggle }) => {

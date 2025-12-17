@@ -1,4 +1,3 @@
-// LocationItem.jsx
 import React from 'react';
 
 const LocationItem = ({ location, isExpanded, onToggle }) => {
